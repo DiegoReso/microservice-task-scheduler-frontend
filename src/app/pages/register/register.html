@@ -6,18 +6,14 @@
 
         <mat-card-content>
             <mat-form-field class="full-width">
-                <mat-label>Nome completo</mat-label>
-                <input matInput placeholder="Digite seu nome completo!">
+                <mat-label>Nome</mat-label>
+                <input matInput placeholder="Digite seu nome">
             </mat-form-field>
             <mat-form-field class="full-width">
                 <mat-label>Email</mat-label>
-                <input matInput placeholder="Digite seu email!">
+                <input matInput placeholder="Digite seu email">
             </mat-form-field>
-            <mat-form-field class="full-width">
-                <mat-label>Password</mat-label>
-                <input type="password" matInput placeholder="Digite sua senha!">
-            </mat-form-field>
-            
+            <app-password-field></app-password-field>
         </mat-card-content>
         <mat-card-actions>
             <button mat-raised-button class="full-width">Cadastrar</button>
